@@ -71,10 +71,10 @@ export default function Footer(){
         <div className=" w-11/12 md:w-3/4 h-[1px] bg-gray-300 self-center"></div>
         <div className="flex flex-row justify-between w-11/12 md:w-3/4 self-center py-6">
 
-            <div className="text-black/40 text-sm">
+            <div className="text-black/40 text-xs md:text-sm">
             Designed and Developed by Retailready
             </div>
-            <div className="text-black/40 text-sm">
+            <div className="text-black/40 text-xs md:text-sm">
             © 2024 Retailready Technologies, Inc. All rights reserved.
             </div>
         </div>
