@@ -58,18 +58,18 @@ export default function Home() {
     </section>
     <section className="flex flex-col items-center justify-center py-24 w-screen h-auto border-b-[1px] border-gray-500/10 bg-gradient-to-tr from-[rgb(245,244,253)] to-[rgb(245,241,252)]">
     <AnimatedDiv>
-        <div className="font-semibold text-black/80 text-xl md:text-7xl">Our mobile app is so easy, you’ll never </div>
+        <div className="font-semibold text-black/80 text-center text-4xl md:text-7xl">Our mobile app is so easy, you’ll never </div>
         </AnimatedDiv>
         <AnimatedDiv>
-        <div className="font-semibold text-black/80 text-xl md:text-7xl mb-12 md:mb-24 ">need to train again. </div>
+        <div className=" font-semibold text-black/80 text-center text-4xl md:text-7xl mb-12 md:mb-24 ">need to train again. </div>
        </AnimatedDiv>
         <AnimatedDiv>
-       <div className="text-black font-thin md:text-xl "> 
+       <div className="text-black text-center font-thin md:text-xl "> 
        Directed workflows that take the guess-
        </div>
        </AnimatedDiv>
        <AnimatedDiv>
-       <div className="text-black font-thin md:text-xl  "> 
+       <div className="text-black text-center font-thin md:text-xl  "> 
        work out of retail compliance
        </div>
        </AnimatedDiv>
@@ -82,12 +82,12 @@ export default function Home() {
         <Image src={"/mobilev.png"} width={1000} height={1000} alt="mobile view"/>
        </motion.div>
        <AnimatedDiv>
-       <div className="text-black font-thin md:text-xl "> 
+       <div className="text-black text-center font-thin md:text-xl "> 
        Eliminate Paper SOPs and Spreadsheet 
        </div>
        </AnimatedDiv>
        <AnimatedDiv>
-       <div className="text-black font-thin md:text-xl "> 
+       <div className="text-black text-center font-thin md:text-xl "> 
        Tracking
        </div>
        </AnimatedDiv>
@@ -95,12 +95,12 @@ export default function Home() {
         <Image src={"/stat.gif"} alt="stat" width={1060} height={220}  />
        </div>
        <AnimatedDiv>
-       <div className="text-black font-thin md:text-xl "> 
+       <div className="text-black text-center font-thin md:text-xl "> 
        Visual repository to hold your team 
        </div>
        </AnimatedDiv>
        <AnimatedDiv>
-       <div className="text-black font-thin md:text-xl mb-6 "> 
+       <div className="text-black text-center font-thin md:text-xl mb-6 "> 
        accountable
        </div>
        </AnimatedDiv>
@@ -113,10 +113,10 @@ export default function Home() {
         <Image src={"/retail1.png"} alt="stat" layout="fill" objectFit="cover" />
         </div>
       
-        <div className="text-black/80 font-semibold text-3xl md:text-8xl mb-12 z-10">A Unified Approach</div>
+        <div className="text-black/80 font-semibold text-center text-4xl md:text-8xl mb-12 z-10">A Unified Approach</div>
        
        
-        <div className="text-black/80 text-base md:text-xl font-thin mb-24 z-10">
+        <div className="text-black/80 text-center md:text-2xl font-thin mb-24 z-10">
         Solutions for every stakeholder
         </div>
         

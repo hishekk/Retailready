@@ -24,7 +24,7 @@ export default function Footer(){
             
         </div>
         
-        <div className="flex flex-row gap-6 md:gap-12">
+        <div className="flex flex-row gap-2 md:gap-12">
         <div className="flex flex-col">
             
            <AnimatedDiv>
