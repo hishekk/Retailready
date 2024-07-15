@@ -59,18 +59,18 @@ const pathname = usePathname();
       </div>
       <div className="md:hidden flex items-center justify-center mt-6 mr-6">
       <button
-        className="relative w-10 h-6"
+        className="relative w-8 h-4"
         onClick={()=>setOpen(!isopen)}
       >
-        <div className={`relative w-10 h-6 transform transition-transform duration-300 ${isopen ? 'rotate-45' : 'rotate-0'}`}>
+        <div className={`relative w-8 h-4 transform transition-transform duration-300 ${isopen ? 'rotate-45' : 'rotate-0'}`}>
           <span
-            className={`block absolute h-[1px] w-10 bg-black transform transition-transform duration-300 ease-in-out ${isopen ? 'rotate-90 translate-y-0' : '-translate-y-3'}`}
+            className={`block absolute h-[1px] w-8 bg-black transform transition-transform duration-300 ease-in-out ${isopen ? 'rotate-90 translate-y-0' : '-translate-y-3'}`}
           ></span>
           <span
-            className={`block absolute h-[1px] w-10 bg-black transform transition-opacity duration-300 ease-in-out ${isopen ? 'opacity-0' : 'opacity-100'}`}
+            className={`block absolute h-[1px] w-8 bg-black transform transition-opacity duration-300 ease-in-out ${isopen ? 'opacity-0' : 'opacity-100'}`}
           ></span>
           <span
-            className={`block absolute h-[1px] w-10 bg-black transform transition-transform duration-300 ease-in-out ${isopen ? '-rotate-180 -translate-y-0' : 'translate-y-3'}`}
+            className={`block absolute h-[1px] w-8 bg-black transform transition-transform duration-300 ease-in-out ${isopen ? '-rotate-180 -translate-y-0' : 'translate-y-3'}`}
           ></span>
         </div>
       </button>
@@ -81,27 +81,27 @@ const pathname = usePathname();
     {isopen && <div className={`md:hidden fixed inset-0 z-[998] flex flex-col items-center justify-center w-screen h-screen transform ${isopen ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-300 ease-in-out`}>
     <Link href="/" 
    
-        className=   "text-xl hover:scale-110 px-3 py-3 rounded transition-colors duration-300">
+        className=   "text-2xl hover:scale-110 px-3 py-3 rounded transition-colors duration-300">
        <button onClick={()=>{setOpen(!isopen)}}>
          Home
        </button>
 
         </Link>
         <Link href="/About" passHref
-           className="text-xl hover:scale:110 px-3 py-3 rounded transition-colors duration-300">
+           className="text-2xl hover:scale-110 px-3 py-3 rounded transition-colors duration-300">
           <button onClick={()=>{setOpen(!isopen)}}>
          About
        </button>
         </Link>
         <Link href="/blogs" passHref
-           className="text-xl hover:scale-110 px-3 py-3 rounded transition-colors duration-300">
+           className="text-2xl hover:scale-110 px-3 py-3 rounded transition-colors duration-300">
         <button onClick={()=>{setOpen(!isopen)}}>
          Blog
        </button>
         </Link>
         <Link href="https://www.linkedin.com/company/retailreadyai/" passHref
         target="_blank"
-          className="text-lg hover:scale-110 px-3 py-3 rounded transition-colors duration-300">
+          className="text-lg hover:scale-110 px-3 py-3 mt-6 rounded transition-colors duration-300">
             <Image 
             src={"/linked.svg"}
             width={30}

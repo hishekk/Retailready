@@ -9,14 +9,14 @@ export default function Footer(){
        <div className="bg-white w-screen h-auto pt-24">
        
         <div className="flex flex-col ">
-        <div className=" flex flex-row justify-between w-3/4 self-center  ">
+        <div className=" flex flex-row justify-between w-11/12 md:w-3/4 self-center  ">
       
         <div className="flex flex-col ">
            
             <Link href={"/"}>
               <AnimatedDiv>
             <span className="flex flex-row gap-2 md:gap-4 items-center"><Image src={"/favicon.jpeg"} alt="company logo" width={30} height={30}/>
-             <span className="text-md">
+             <span className="text-sm md:text-md">
                 RETAILREADY</span>
             </span> 
             </AnimatedDiv>
@@ -68,13 +68,13 @@ export default function Footer(){
         
         </div>
      
-        <div className="w-3/4 h-[1px] bg-gray-300 self-center"></div>
-        <div className="flex flex-row justify-between w-3/4 self-center py-6">
+        <div className=" w-11/12 md:w-3/4 h-[1px] bg-gray-300 self-center"></div>
+        <div className="flex flex-row justify-between w-11/12 md:w-3/4 self-center py-6">
 
-            <div className="text-black/40">
+            <div className="text-black/40 text-sm">
             Designed and Developed by Retailready
             </div>
-            <div className="text-black/40">
+            <div className="text-black/40 text-sm">
             © 2024 Retailready Technologies, Inc. All rights reserved.
             </div>
         </div>
