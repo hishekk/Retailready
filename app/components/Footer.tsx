@@ -15,7 +15,7 @@ export default function Footer(){
            
             <Link href={"/"}>
               <AnimatedDiv>
-            <span className="flex flex-row gap-2 md:gap-4 items-center"><Image src={"/favicon.jpeg"} alt="company logo" width={30} height={30}/>
+            <span className="flex flex-row gap-1 md:gap-4 items-center"><Image src={"/favicon.jpeg"} alt="company logo" width={30} height={30}/>
              <span className="text-sm md:text-md">
                 RETAILREADY</span>
             </span> 
@@ -24,7 +24,7 @@ export default function Footer(){
             
         </div>
         
-        <div className="flex flex-row gap-2 md:gap-12">
+        <div className="flex flex-row gap-1 md:gap-12">
         <div className="flex flex-col">
             
            <AnimatedDiv>
