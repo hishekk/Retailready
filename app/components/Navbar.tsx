@@ -22,8 +22,8 @@ const pathname = usePathname();
       {/* Logo */}
       <Link href="/" passHref
         className="text-xl font-bold">
-          <span className={`text-gray-300 text-xl ml-4 md:ml-0 ${scrolled ? 'text-gray-900': 'font-thin'}`}>RETAIL</span>
-          <span className={`text-gray-300  text-xl ${scrolled ? 'text-gray-700': ''}`}>READY</span>
+          <span className={`text-gray-300 text-md md:text-lg ml-4 md:ml-0 ${scrolled ? 'text-gray-900': 'font-thin'}`}>RETAIL</span>
+          <span className={`text-gray-300 text-md  md:text-lg ${scrolled ? 'text-gray-700': ''}`}>READY</span>
         
       </Link>
 
